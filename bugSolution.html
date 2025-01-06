@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="my-div">
+    This is some text.
+  </div>
+  <script>
+    // Correct way to access an element with a hyphen in its ID
+    document.getElementById("my-div").innerHTML = "Modified text"; 
+  </script>
+</body>
+</html>
